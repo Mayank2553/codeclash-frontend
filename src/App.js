@@ -5,12 +5,14 @@ import LandingPage from "./pages/LandingPage";
 import Lobby from "./pages/Lobby";
 import Leaderboard from "./pages/Leaderboard";
 import AuthPage from "./pages/AuthPage";
+import SignUp from "./pages/SignUp";
 
 const App = () => {
   return (
     <Router>
       <Navbar />
       <Routes>
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/auth" element={<AuthPage />} />
         <Route path="/lobby" element={<Lobby />} />
