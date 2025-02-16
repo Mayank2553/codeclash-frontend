@@ -1,6 +1,6 @@
 /* Navbar Styles */
 .navbar {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     background-color: #0D1117;
@@ -25,10 +25,15 @@
   
   /* Logo */
   .nav-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
+    display: "flex"; 
+    /* height: "2vh"; */
+    /* width: 20px; */
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .nav-logo img{
+    width: 125px;
   }
   
   /* Navigation Links */
@@ -75,7 +80,7 @@
       background-color: #0D1117;
       flex-direction: column;
       align-items: center;
-      padding: 10px 0;
+      /* padding: 10px 0; */
       display: none;
     }
   

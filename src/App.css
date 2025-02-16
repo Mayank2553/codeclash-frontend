@@ -1,7 +1,5 @@
 /* Reset default margins and paddings */
-body {
-    overflow-x: hidden;
-} 
+
 
 body{
     margin: 0;
