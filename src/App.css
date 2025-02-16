@@ -1,0 +1,32 @@
+/* Reset default margins and paddings */
+body {
+    overflow-x: hidden;
+} 
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Ensure full height coverage */
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #0D1117; /* Change this to match your theme */
+  }
+  
+  /* Ensure the App container takes full height */
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    min-height: 100vh;
+    background-color: inherit; /* Prevents unwanted white background */
+  }
+  

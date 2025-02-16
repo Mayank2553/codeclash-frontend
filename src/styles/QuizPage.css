@@ -1,0 +1,41 @@
+/* Quiz Page Styling */
+.quiz-container {
+    min-height: 100vh;
+    background-color: #161b22;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quiz-question {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #22c55e;
+  }
+  
+  .quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  .quiz-option {
+    padding: 12px 16px;
+    background: #374151;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .quiz-option:hover {
+    background: #2563eb;
+    transform: scale(1.05);
+  }
+  

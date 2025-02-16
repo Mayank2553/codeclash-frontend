@@ -1,0 +1,39 @@
+/* Leaderboard Styling */
+.leaderboard-container {
+    min-height: 100vh;
+    background-color: #101827;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .leaderboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #facc15;
+  }
+  
+  .leaderboard-table {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+  }
+  
+  .leaderboard-table th, .leaderboard-table td {
+    padding: 12px;
+    border-bottom: 1px solid #374151;
+  }
+  
+  .leaderboard-table th {
+    background: #2563eb;
+    color: white;
+  }
+  
+  .leaderboard-row:hover {
+    background: #1e293b;
+  }
+  
